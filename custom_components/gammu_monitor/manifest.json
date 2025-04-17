@@ -1,0 +1,9 @@
+{
+  "domain": "gammu_monitor",
+  "name": "Gammu SMSD Monitor",
+  "documentation": "https://github.com/tuusuario/homeassistant-gammu-monitor",
+  "requirements": ["requests"],
+  "dependencies": [],
+  "codeowners": ["@tuusuario"],
+  "version": "1.0.0"
+}

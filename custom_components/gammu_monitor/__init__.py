@@ -1,0 +1,1 @@
+# Integración de Gammu SMSD Monitor para Home Assistant
