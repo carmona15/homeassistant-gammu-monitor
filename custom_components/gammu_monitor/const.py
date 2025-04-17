@@ -1,3 +1,6 @@
 DOMAIN = "gammu_monitor"
+PLATFORMS = ["sensor"]
 
-CONF_SCAN_INTERVAL = "scan_interval"
+DEFAULT_HOST = "localhost"
+DEFAULT_PORT = 5000
+DEFAULT_SCAN_INTERVAL = 30  # segundos
