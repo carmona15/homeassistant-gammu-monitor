@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Gammu Monitor",
+        "description": "Establece la conexión con la API.",
+        "data": {
+          "host": "Host de la API",
+          "port": "Puerto de la API",
+          "scan_interval": "Intervalo de sondeo (segundos)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo conectar con la API",
+      "unknown": "Error desconocido"
+    },
+    "abort": {
+      "already_configured": "Gammu Monitor ya está configurado"
+    }
+  }
+}

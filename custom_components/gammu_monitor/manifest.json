@@ -1,9 +1,12 @@
 {
   "domain": "gammu_monitor",
   "name": "Gammu SMSD Monitor",
-  "documentation": "https://github.com/tuusuario/homeassistant-gammu-monitor",
-  "requirements": ["requests"],
+  "version": "1.1.0",
+  "documentation": "https://github.com/carmona15/homeassistant-gammu-monitor",
+  "issue_tracker": "https://github.com/carmona15/homeassistant-gammu-monitor/issues",
   "dependencies": [],
-  "codeowners": ["@tuusuario"],
-  "version": "1.0.0"
+  "codeowners": ["@carmona15"],
+  "requirements": [],
+  "config_flow": true,
+  "iot_class": "local_polling"
 }

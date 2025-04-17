@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Gammu Monitor",
+        "description": "Set up the API connection.",
+        "data": {
+          "host": "API Host",
+          "port": "API Port",
+          "scan_interval": "Polling Interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the API",
+      "unknown": "Unknown error"
+    },
+    "abort": {
+      "already_configured": "Gammu Monitor is already configured"
+    }
+  }
+}
